@@ -1,0 +1,37 @@
+body {
+    background-color: #2D3250;
+}
+
+.container-sm.even-container {
+    background-color: #7077A1;
+    color: #2D3250;
+    font-family: sans-serif;
+    box-shadow: 5px 3px 5px black;
+    border:black solid 1px;
+}
+
+.container-sm.odd-container {
+    background-color: #8d95c0;
+    color: #2D3250;
+    font-family: sans-serif;
+    box-shadow: 5px 3px 5px black;
+    border:black solid 1px;
+}
+.profile-picture {
+    border-radius: 5px;
+    border-color: black;
+    border-width: 0.1rem;
+    border-style: solid;
+    box-shadow: 10px 5px 5px#2D3250;
+}
+
+.text-body-emphasis {
+    --bs-emphasis-color: #2D3250;
+}
+
+section {
+    margin: 0.5rem 0px 0.5rem 0px;
+}
+.icon-square {
+   --bs-bg-opacity: 0;
+}
