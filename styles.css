@@ -2,12 +2,37 @@ body {
     background-color: #2D3250;
 }
 
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    margin: 0px 0.1rem;
+    text-align: center;
+}
+li {
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 5px;
+    list-style: none;
+}
+h3 {
+    font-size: 1rem;
+    font-weight: 560;
+}
+
 .container-sm.even-container {
     background-color: #7077A1;
     color: #2D3250;
     font-family: sans-serif;
     box-shadow: 5px 3px 5px black;
     border:black solid 1px;
+}
+
+.mailsend {
+    background-color: #F6B17A;
+    color:#2D3250;
+    border: solid 1px #2D3250;
+    box-shadow: 1px 1px 3px;
 }
 
 .container-sm.odd-container {
