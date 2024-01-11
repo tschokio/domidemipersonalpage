@@ -35,10 +35,19 @@ h3 {
     box-shadow: 1px 1px 3px;
 }
 .mailsend:hover {
-    background-color: #F6B17A;
+    background-color: #f7a25d;
     color:#2D3250;
     border: solid 1px #2D3250;
     box-shadow: 1px 1px 3px;
+}
+.mailsend:active {
+    background-color: #f79a4f;
+    color:#2D3250;
+    border: solid 1px #2D3250;
+    box-shadow: 1px 1px 3px;
+    --bs-btn-active-bg: #f79a4f;
+    --bs-btn-active-color: #2D3250;
+
 }
 
 .container-sm.odd-container {
